@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   
+  <style type="text/css">
+  	.social {
+    position: relative;
+    text-align:center; 
+    top:0;
+}
+    .social ul { 
+        margin:0; 
+        padding:5px 0;
+        height:30px; 
+    }
+
+    .social ul li {
+        display: inline-block;
+        list-style: none;
+        height: 30px;
+        margin: 0 2px;
+    }
+
+        .social ul li a {
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-image: url(http://www.kidswithfoodallergies.org/themes/kfa-new-theme/img/sm_sprite.png);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            outline: none;
+            -moz-transition: all ease 0.3s;
+            -o-transition: all ease 0.3s;
+            -webkit-transition: all ease 0.3s;
+            transition: all ease 0.3s;
+        }
+        .social ul li a:hover {
+            opacity:0.6;
+        }
+        .social ul li span {
+            display: none;
+        }
+        .social ul li.tw a {
+            background-position:0 -124px;
+        }
+        .social ul li.fb a {
+            background-position:0 -31px;
+        }
+        .social ul li.gp a {
+            background-position:0 -62px;
+        }
+        .social ul li.rs a {
+            background-position:0 -93px;
+        }
+        .social ul li.yt a {
+            background-position:0 -155px;
+        }
+        .social ul li.sh a {
+            background-position:0 0;
+        }
+  	
+  	
+.title-bar { 
+    background:#33B0DC url(http://www.kidswithfoodallergies.org/themes/kfa-new-theme/img/arrow_corner_sprite.png) no-repeat 100% -200px; 
+    position:relative;
+    padding:0 15px; 
+    color:#FFF; 
+    font-family:'cabinbold';
+    text-transform:uppercase;
+    line-height:40px;
+    font-size:18px;
+    padding-right: 50px;
+}
+.footer {
+    margin: 20px auto 0;
+    color: #666;
+    position: relative;
+    opacity: 0;
+    max-width: 1000px;
+}
+    .footer .title-bar:after { 
+        background-position: 100% -58px; 
+    }
+    .footer .title-bar .float-left { 
+        position:absolute; 
+        top:0; 
+        left:15px;
+    }
+    .footer .footer-widgets {
+        padding: 5px 0 20px;
+    }
+        .footer .footer-widgets .float-left img { 
+            margin:0 0 12px 13px;
+        }
+        .footer .footer-widgets .float-right img { 
+            margin-right:13px;
+        }
+        .footer .footer-widgets .widgetselector {
+            padding: 3px !important;
+        }
+
+        .footer .footer-widgets input[type="button"][value="Add"] {
+            padding: 0 15px !important;
+            height: 33px !important;
+            border: 2px solid #666;
+        }
+
+        .footer .footer-widgets .widget {
+            width: 31%;
+            margin-right: 3%;
+            float: left;
+            background: none;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+            .footer .footer-widgets .widget.last-child {
+                margin: 0;
+            }
+
+            .footer .footer-widgets .widget .widget-title {
+                font-size: 20px;
+                font-weight: normal;
+                font-family: "Domine";
+                line-height: 50px;
+                padding-bottom: 5px;
+                border-bottom-style: solid;
+                border-width: 3px;
+                margin-bottom: 15px;
+                margin-top: 0;
+            }
+
+            .footer .footer-widgets .widget #moveWidgetTo {
+                width: 160px;
+                padding: 3px;
+            }
+
+            .footer .footer-widgets .widget #moveWidgetToBtn {
+                border: 1px solid #CCC;
+                padding: 4px;
+                margin-left: 1px;
+                cursor: pointer;
+            }
+
+            .footer .footer-widgets .widget .widget-body {
+                color: #999;
+                font-size: 14px;
+            }
+
+                .footer .footer-widgets .widget .widget-body a {
+                    color: #00649c;
+                    font-size: 14px;
+                }
+
+                    .footer .footer-widgets .widget .widget-body a:hover {
+                    }
+
+                .footer .footer-widgets .widget .widget-body ul li {
+                    border-bottom-color: #555 !important;
+                }
+
+        .footer .footer-widgets table td, .footer .footer-widgets table th {
+            background: #222 !important;
+            border-color: #111 !important;
+        }
+
+        .footer .footer-widgets .calendar a.exist {
+            background: #111 !important;
+        }
+
+        .footer .footer-widgets input[type="text"] {
+            background: #222;
+            border-color: #111;
+            color: #777;
+        }
+
+        .footer .footer-widgets .tagcloud ul li a {
+            background: #222;
+            border-bottom-color: #111;
+        }
+    /*[ footer - footer line ]*/
+
+    .footer .footer-line {
+        padding: 50px 0 20px;
+        background: #007AA6 url(http://www.kidswithfoodallergies.org/themes/kfa-new-theme/img/footer_top.png) no-repeat 0 0;
+        background-size:contain; 
+        font-size: 13px;
+        color: #FFF;
+        margin-top:20px; 
+    }
+        .footer .footer-line ul {
+            padding: 0; 
+        }
+        .footer .footer-line ul li { 
+            list-style:none;
+            display:inline;
+            font-weight:bold; 
+            margin:0 .5em; 
+        }
+
+        .footer .footer-line a {
+            color: #FFF !important;
+        }
+
+        .footer .footer-line .separator {
+            top: -2px;
+            margin: 0 8px;
+            background-color: #777 !important;
+        }
+
+    .footer p {
+        margin: 0;
+    }
+    .footer .footer-links { 
+        border:1px solid #33B0DC;
+        border-top:0; 
+        border-bottom-left-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .footer .footer-links ul { 
+        list-style:none; 
+        width:25%; 
+        float:left;
+        margin:15px 0;
+        padding:0;
+    }
+        .footer .footer-links ul li { 
+            margin:0 0 5px 15px; 
+            padding:0; 
+        }
+        .footer .footer-links a { 
+            text-decoration:underline;
+        }
+
+    .footer .scrollup {
+        width: 48px;
+        height: 48px;
+        -moz-border-radius: 128px;
+        -webkit-border-radius: 128px;
+        border-radius: 128px;
+        background-image: url(http://www.kidswithfoodallergies.org/themes/kfa-new-theme/img/up.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 2px solid #ececec;
+        position: fixed;
+        right: 50px;
+        z-index: 250;
+        cursor: pointer;
+        bottom: 30px;
+        display: none;
+    }
+
+  </style>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="footer">
+<div class="container">
+                    <div class="title-bar">
+                       <div class="row">
+                       <div class="col-lg-12 col-md-12 col-sm-12">
+                        <span class="float-left">Helpful Links</span>
+                        <div class="social" id="social">
+                            <ul class="tooltip">
+                                <li class="fb"><a href="https://www.facebook.com/kidswithfoodallergies" title="Facebook" rel="nofollow" target="_blank"><span>Facebook</span></a></li>
+                                <li class="tw"><a href="https://twitter.com/kfatweets" title="Twitter" rel="nofollow" target="_blank"><span>Twitter</span></a></li>
+                                <li class="yt"><a href="https://www.youtube.com/user/KFAAdmin" title="Youtube" rel="nofollow" target="_blank"><span>Youtube</span></a></li>
+                                <li class="gp"><a href="https://plus.google.com/+KidswithfoodallergiesOrg#+KidswithfoodallergiesOrg/videos" title="Google Plus" rel="author" target="_blank"><span>Google Plus</span></a></li>
+                                <li class="rs"><a href="http://feeds.feedburner.com/kidswithfoodallergies" title="<%= Resources.labels.subscribe %>"><span>RSS Feed</span></a></li>
+                                <li class="sh"><a href="https://secure.kidswithfoodallergies.org/np/clients/kidswfa/survey.jsp?surveyId=4&" title="share"><span>Subscribe</span></a></li>
+                            </ul>
+                        </div>
+                   </div> </div>
+                    </div>
+<div class="container footer-widgets">
+    <div class="footer-links clearfix">
+        <div class="row"><div class="col-lg-3 col-md-3 col-sm-3">
+                        <ul>
+                            <li><a href="/page/food-allergy-topics.aspx">Food Allergy Facts</a></li>
+                            <li><a href="/page/newly-diagnosed.aspx">New Diagnosis</a></li>
+                            <li><a href="/page/top-food-allergens.aspx">Food Allergens</a></li>
+                            <li><a href="/page/what-is-anaphylaxis.aspx">Anaphylaxis</a></li>
+                        </ul></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"><ul>
+                            <li><a href="https://community.kidswithfoodallergies.org/collection/food-allergy-recall-alerts">Food Allergy Recalls</a></li>
+                            <li><a href="https://community.kidswithfoodallergies.org/collection/food-allergy-updates-from-medical-advisory-team">Updates from Medical Advisors</a></li>
+                        
+                            <li><a href="https://community.kidswithfoodallergies.org/collection/food-allergy-news-and-research">Food Allergy News &amp; Research Blog</a></li>
+    <li><a href="https://community.kidswithfoodallergies.org/collection/food-nutrition-recipes">Food, Nutrition, Recipes Blog</a></li>
+                        </ul></div>
+                       <div class="col-lg-3 col-md-3 col-sm-3"> <ul>
+                            <li><a href="/page/recipes-diet.aspx">Safe Eats&trade; Recipes</a></li>
+                            <li><a href="/page/choosing-safe-foods.aspx">How to Find Safe Foods</a></li>
+                            <li><a href="/page/recipe-substitutions.aspx">Recipe Substitutions</a></li>
+                            <li><a href="/page/nutrition.aspx">Nutrition</a></li>
+                        </ul></div>
+                       <div class="col-lg-3 col-md-3 col-sm-3"> <ul>
+                            <li><a href="/page/allergy-buyers-guide.aspx">Allergy Buyer's Guide</a></li>
+                            <li><a href="/page/shop-to-support-food-allergies.aspx">Shop to Support</a></li>
+                            <li><a href="https://community.kidswithfoodallergies.org/forums">Support Forums</a></li>
+                            <li><a href="/page/webinars.aspx">Webinars</a></li>
+                        </ul></div>
+                    </div>
+                    </div>
+</div>
+
+    <div class="row">
+    	<div class="col-lg-12 col-md-12 col-sm-12">
+    		<div class="col-lg-3 col-md-3 col-sm-3"><a href="http://aafa.org/" class="float-left" target="_blank"><img src="http://www.kidswithfoodallergies.org/themes/kfa-new-theme/img/logo_aafa.jpg" /></a></div>
+    		<div class="col-lg-6 col-md-6 col-sm-6 text-center"><h2><a href="/page/contact-kids-with-food-allergies.aspx">Contact Us</a></h2><p><strong>Kids With Food Allergies<br />
+                        A Division of the Asthma and Allergy Foundation of America</strong><br />
+                        5049 Swamp Rd, Ste 303, PO Box 554, Fountainville, PA 18923<br />
+                        Phone: 215.230.5394  |  Fax: 215.340.7674 </p></div>
+    		<div class="col-lg-3 col-md-3 col-sm-3">
+    		<a href="http://www.give.org/charity-reviews/national/health/asthma-and-allergy-foundation-of-america-in-landover-md-944" class="float-right" target="_blank"><img src="http://www.kidswithfoodallergies.org/themes/kfa-new-theme/img/logo_bbb.jpg" /></a>
+    		 <a href="http://www.nationalhealthcouncil.org/" class="float-right" target="_blank"><img src="http://www.kidswithfoodallergies.org/themes/kfa-new-theme/img/logo_nhc.jpg" /></a>
+    			<a href="http://www.hon.ch/HONcode/Conduct.html?HONConduct435122" class="float-right" target="_blank"><img src="http://www.kidswithfoodallergies.org/themes/kfa-new-theme/img/logo_hon.jpg" /></a>
+                   
+                    
+    		</div>
+    	</div>
+    	</div>
+    	<div class="footer-line">
+    	<div class="container">
+    	<div class="row">
+    		
+    		<div class="col-lg-12 col-md-12 col-sm-12 text-center"><ul>
+                            <li><a href="/page/privacy-policy-and-terms-of-service.aspx">Privacy and Terms</a></li>
+                        </ul>
+                        <p>Copyright &copy; 2005-2016. Kids With Food Allergies<br> A division of the Asthma and Allergy Foundation of America. <br> All rights reserved.</p></div>
+    		</div>
+    	</div>
+  </div>
+  </div>
+  </div>
+  </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
