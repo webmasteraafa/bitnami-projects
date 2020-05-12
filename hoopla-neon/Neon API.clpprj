@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\Neon API.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost/hoopla-neon/]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost/hoopla-neon/]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles/>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\newcode\test_code.php" crc="1570549130474"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\newcode\NewFile2.php" crc="1569436825280"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\newcode\matching_tables.php" crc="1570548591827"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\newcode\index.html" crc="1569961067274"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\newcode\hoopla.php" crc="1570549693687"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\newcode\config.php" crc="1571419890826"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\inc\neon_curl_login.php" crc="1568734139410"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\inc\globalvariables.php" crc="1514570565332"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\inc\curl.php" crc="1569372355759"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\inc\config.php" crc="1514490248330"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\.settings\org.eclipse.wst.common.project.facet.core.xml" crc="1569372213379"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\nodb2.php" crc="1514494626620"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\nodb.php" crc="1514571657308"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\NewFile0.php" crc="1568732528155"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\neonlogin.php" crc="1568736480264"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\Neon_sample.php" crc="1568736748196"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\kfa_test2.php" crc="1569355876811"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\kfa_test.php" crc="1569352101386"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\kfa.php" crc="1569375106408"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\index.php" crc="1514571867907"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\get_aafa_member.php" crc="1514348394247"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\body.php" crc="1569378737403"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\aafa.php" crc="1569372769042"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\hoopla-neon\aafa-test.php" crc="1569465462900"/>
+ </filescache>
+</project>

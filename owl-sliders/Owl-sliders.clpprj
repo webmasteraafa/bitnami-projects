@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\owl-sliders\Owl-sliders.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost:81/owl-sliders/]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost:81/owl-sliders/]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\owl-sliders\test slider.html"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\owl-sliders\test slider.html"/>
+ </lastopfiles>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\owl-sliders\test slider.html" crc="1587563678990"/>
+  <file name="C:\Bitnami\wampstack-5.6.24-0\apache2\htdocs\owl-sliders\NewFile0.html" crc="1587560398045"/>
+ </filescache>
+</project>
