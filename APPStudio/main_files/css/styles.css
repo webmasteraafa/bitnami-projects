@@ -1,0 +1,4 @@
+@CHARSET "ISO-8859-1";
+.gallery_nav {list-style-type:none; padding:0px; margin:0px}
+.gallery_nav li {float:left; diplay:block; width:50px; padding:5px; background-color:#27bac2; text-align:center; font-size:16px; border:1px solid #000}
+.gallery_nav li a {text-decoration:none; color:white}

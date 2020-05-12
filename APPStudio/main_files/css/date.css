@@ -1,0 +1,16 @@
+.form-horizontal .form-group .custom .date-fields {visibility: hidden;}
+.form-horizontal .form-group .custom input[value="custom"]:checked ~ .date-fields {visibility: visible;}
+.form-horizontal .form-group .last .date-fields {visibility: hidden;}
+.form-horizontal .form-group .last input[value="2016"]:checked ~ .date-fields {visibility: visible;}
+.form-horizontal .form-group .jan .date-fields {visibility: hidden;}
+.form-horizontal .form-group .jan input[value="jan"]:checked ~ .date-fields {visibility: visible;}
+.form-horizontal .form-group .feb .date-fields {visibility: hidden;}
+.form-horizontal .form-group .feb input[value="feb"]:checked ~ .date-fields {visibility: visible;}
+.form-horizontal .form-group .mar .date-fields {visibility: hidden;}
+.form-horizontal .form-group .mar input[value="mar"]:checked ~ .date-fields {visibility: visible;}
+.form-horizontal .form-group .apr .date-fields {visibility: hidden;}
+.form-horizontal .form-group .apr input[value="apr"]:checked ~ .date-fields {visibility: visible;}
+.form-horizontal .form-group .may .date-fields {visibility: hidden;}
+.form-horizontal .form-group .may input[value="may"]:checked ~ .date-fields {visibility: visible;}
+.form-horizontal .form-group .jun .date-fields {visibility: hidden;}
+.form-horizontal .form-group .jun input[value="jun"]:checked ~ .date-fields {visibility: visible;}
