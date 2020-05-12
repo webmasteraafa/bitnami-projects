@@ -1,0 +1,24 @@
+
+.MainBodyText {font-family: arial; font-size:9pt; color: #77757D; text-decoration: none}
+.RedBigText {font-family: arial; font-size:11pt; color: #650C00; text-decoration: none}
+.RedBigTitle {font-family: arial; font-size:14pt; color: #650C00; text-decoration: none}
+.MediumText {font-family: arial; font-size:10pt; font-weight:600 color: #77757D; text-decoration: none}
+
+.FooterText {font-family: arial; font-size:9pt; font-weight: 600; color: #ffffff; text-decoration: none}
+.SmallText {font-family: arial; font-size:7pt; font-weight: 500; color: #77757D; text-decoration: none}
+
+
+.FooterLinks:link,
+.FooterLinks:visited,
+.FooterLinks:active {font-family: arial; font-size:9pt; font-weight: 600; color: #ffffff; text-decoration: none}
+.FooterLinks:hover {font-family: arial; font-size:9pt; font-weight: 600; color: #AE7395; text-decoration: none}
+
+.SmallLinks:link,
+.SmallLinks:visited,
+.SmallLinks:active {font-family: arial; font-size:7pt; font-weight: 500; color: #77757D; text-decoration: underline}
+.SmallLinks:hover {font-family: arial; font-size:7pt; font-weight: 500; color: #000000; text-decoration: underline}
+
+.MainLinks:link,
+.MainLinks:visited,
+.MainLinks:active {font-family: arial; font-size:10pt; font-weight: 500; color: #77757D; text-decoration: underline}
+.MainLinks:hover {font-family: arial; font-size:10pt; font-weight: 500; color: #000000; text-decoration: underline}
