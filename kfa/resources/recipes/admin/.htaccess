@@ -1,0 +1,6 @@
+AuthName "recipes"
+AuthType Basic
+require valid-user
+PWDirRealmMask "1"
+RewriteCond %{HTTP_HOST} ^www.kidswithfoodallergies\.com
+RewriteRule ^(.*)$ http://kidswithfoodallergies.org/$1 [R=permanent,L]
