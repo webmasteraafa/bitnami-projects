@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta name="description" content="Kids With Food Allergies offers the largest allergy-friendly recipe collection: search for recipes free of your allergens, browse by category, and get personal help with substitutions." />
+
+<script language="JavaScript" type="text/JavaScript">
+
+/*** Method that displays the pop window for help ***/
+function showHelp(topic){
+	var m = window.open("http://kidswithfoodallergies.org/recipes/help.html#"+ topic,"","scrollbars=yes, toolbar=no, resizable=no, width=550, height=250"); 
+}
+
+/*** Method that validates entered data ***/
+function validate(){
+   var error, emptyother, string, checkboxes, checked;
+   checkboxes = document.searchform.elements;
+   error = false;
+   emptyother = false;
+   string = "";
+
+   if (searchform.course.value == '' && searchform.keyword.value == ''){
+      checked = false;
+      for(i=0; i < checkboxes.length; i++){
+         if(checkboxes[i].type == 'checkbox'){
+            if(checkboxes[i].checked == true){
+               checked = true;
+               break;
+            }
+         }
+      }
+      if(!checked){
+         error = true;
+		   string = "Must use Keyword, Course, Allergens ";
+      }
+   }
+
+   if(document.searchform.other.checked && searchform.othertext.value == ''){
+      emptyother = true;
+      if(error)
+	      string = string + "AND";
+      string = string + " Fill in other allergens";
+   }
+
+   if (error || emptyother){
+      alert (string);
+      event.returnValue = false;
+   }
+}
+</script>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0  
+	window.open(theURL,winName,features);
+  return false;
+}//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+
+/*** Method that displays the pop window for help ***/
+function showHelp(topic){
+	var m = window.open("http://kidswithfoodallergies.org/recipes/help.html#"+ topic,"","scrollbars=yes, toolbar=no, resizable=no, width=550, height=250"); 
+}
+
+/*** Method that validates entered data ***/
+function validate(){
+   var error, emptyother, string, checkboxes, checked;
+   checkboxes = document.searchform.elements;
+   error = false;
+   emptyother = false;
+   string = "";
+
+   if (searchform.course.value == '' && searchform.keyword.value == ''){
+      checked = false;
+      for(i=0; i < checkboxes.length; i++){
+         if(checkboxes[i].type == 'checkbox'){
+            if(checkboxes[i].checked == true){
+               checked = true;
+               break;
+            }
+         }
+      }
+      if(!checked){
+         error = true;
+		   string = "Must use Keyword, Course, Allergens ";
+      }
+   }
+
+   if(document.searchform.other.checked && searchform.othertext.value == ''){
+      emptyother = true;
+      if(error)
+	      string = string + "AND";
+      string = string + " Fill in other allergens";
+   }
+
+   if (error || emptyother){
+      alert (string);
+      event.returnValue = false;
+   }
+}
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0  
+	window.open(theURL,winName,features);
+  return false;
+}//-->
+</script>
+<script type="text/javascript" src="http://www.kidswithfoodallergies.org/js/jquery.hoverIntent.js"></script>
+<script type="text/javascript" src="http://www.kidswithfoodallergies.org/js/tools-nav.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed|Nobile:700' rel='stylesheet' type='text/css' />
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "d1cb1749-92cb-45bf-b8fe-7146fdb014fb"}); </script>
+
+
+<link href="http://www.kidswithfoodallergies.org/js/community.css" rel="stylesheet" type="text/css" />
+<link href="http://www.kidswithfoodallergies.org/js/main.css" rel="stylesheet" type="text/css" />
+<link href="http://www.kidswithfoodallergies.org/js/images.css" rel="stylesheet" type="text/css" />
+<link href="http://www.kidswithfoodallergies.org/js/forms.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="http://www.kidswithfoodallergies.org/js/menu.js" type="text/javascript"></script>
+<style type="text/css"> 
+/* content area background color below */
+body, html {background:#effaff
+url(http://www.kidswithfoodallergies.org/images/background-1.jpg) no-repeat top center !important; margin:0 auto;}
+body div#groupeeBody{
+background-color: rgb(255,255,255);
+background-color:rgba(255,255,255,0.80);
+}
+
+
+</style>
+
+    
+          <meta property="og:site_name" content="Kids With Food Allergies Foundation" />
+          
+</head>
+<body style="width:1000px; background-color:#effaff">
+<!--<div id="topextended">
+PATIENTS      |       MEDICAL PROFESSIONALS        |       MEDIA
+</div>-->
+<table id="newsletter"><tr><td width="632"></td><td width="345" align="right" id="newsletter" valign="top">
+	<form  method="post" action="http://www.kidswithfoodallergies.org/newsletter_sign-up.php" target="_blank" enctype="text/plain">
+		<input type="text" id="newsletter-text" name="Email" value="enter email" maxlength="140" size="20" onfocus="clearDefault(this)"  />
+        <input type="submit" id="newsletter-submit" value="Get eNews" onclick="_gaq.push(['_trackEvent', 'Subscribe', 'top navigation']);" />
+	</form> 
+
+</td></tr></table>
+
+
+
+<div id="nav">
+
+<div id="logo" style="margin-left:20px"><a href="http://www.kidswithfoodallergies.org" target="_blank"><img src="http://www.kidswithfoodallergies.org/logo/KFA_glow.png" border="0"  alt="Kids With Food Allergies Foundation" /></a></div> 
+<ul id="primaryMenu" style="width:auto; margin-right:0px">
+	<li id="aboutUs"><a href="http://community.kidswithfoodallergies.org/about">About Us</a>
+		<!--<ul class="aboutlist">
+			<li><a href="http://www.kidswithfoodallergies.org/about.html" target="_blank">Our Mission</a></li>
+			<li><a href="http://www.kidswithfoodallergies.org/bod.html" target="_blank">Leadership</a></li>
+			<li><a href="http://www.kidswithfoodallergies.org/history.html" target="_blank">History</a></li>
+				<li><a href="http://www.kidswithfoodallergies.org/corporate_sponsors.html" target="_blank">Sponsors & Partners</a></li>
+			
+			<li><a href="http://www.kidswithfoodallergies.org/volunteers.html" target="_blank">Employment & Volunteer Opportunities</a></li>
+            			<li><a href="http://www.kidswithfoodallergies.org/funding.html" target="_blank">Financials & Funding</a></li>
+                    
+			<li><a href="http://www.strides4safekids.org">Strides for Safe Kids™ Mall Walk & Expo</a></li>
+                <li class="last"><a href="http://www.kidswithfoodallergies.org/contactus.html">Contact Us</a></li>
+		</ul>-->
+	</li>
+	<li id="join"><a href="http://community.kidswithfoodallergies.org/join">Join</a>
+	 <!-- <ul class="image2col">
+			<li class="imageInset">
+				<a href="http://community.kidswithfoodallergies.org">
+					<img class="" src="http://www.kidswithfoodallergies.org/images/banner2-color.jpg"/></a>
+					<div style="width:175px">
+						<span class="small">
+						<br /><br />
+
+<em>"KFA has been a life preserver for me. I was drowning...and now I am treading with my head above water."<br />
+ — Beth</em>
+						</span>
+					</div>
+				<br /><br /><br />
+			</li>
+			
+            <li>
+				<a href="http://community.kidswithfoodallergies.org/join">
+					Register for Our Free Community
+					<span class="small">Join our support forums for trustworthy online allergy support.</span>
+				</a>
+			</li>
+				<li>
+				<a href="https://secure.kidswithfoodallergies.org/np/clients/kidswfa/membershipJoin.jsp" target="_blank">
+					Become a Family Member
+					<span class="small">Enjoy the many benefits of being a KFA Family Member including full access to thousands of allergy-friendly recipes.    </span>
+					</a></li>
+					<li>
+						<a href="http://www.kidswithfoodallergies.org/volunteers.html" target="_blank">
+							Share Your Talents and Time
+								<span class="small">Volunteer to help us achieve our mission to keep kids healthy and safe.</span>
+								</a></li>
+						<li>
+                        <a href="http://www.kidswithfoodallergies.org/newsletter_sign-up.html">Subscribe to Our Newsletter
+							<span class="small">Stay informed with the latest food allergy news, research, new foods, recipes and more.</span>
+							</a></li>
+		
+							<li class="last">
+								<a href="http://community.kidswithfoodallergies.org/pages/social-media">Follow Us on Social Media
+									<span class="small">Follow KFA on Facebook, Twitter, YouTube, Google+, and Pinterest.</span></a></li>
+		</ul>-->
+	</li>
+    
+    
+    
+    
+    
+    
+	<li id="supportKFA"><a href="https://www.kidswithfoodallergies.org/donate.html">Support KFA</a>
+	 <!-- <ul class="supportlist">
+			<li>
+				<a href="https://secure.kidswithfoodallergies.org/np/clients/kidswfa/membershipJoin.jsp">Become a KFA Family Member
+					<span class="small">Enjoy the many benefits of becoming a Family Member.</span>
+				</a></li>
+				<li>
+				<a href="https://secure.kidswithfoodallergies.org/np/clients/kidswfa/donation.jsp?campaign=25">Make a Tax-Deductible Donation
+					<span class="small">Support our work to keep kids with food allergies safe and healthy. </span>
+						</a></li>
+					<li>
+						<a href="http://community.kidswithfoodallergies.org/calendar">KFA Events
+					<span class="small">Upcoming national, local, or online KFA events.</span>
+						</a></li>
+							<li>
+							<a href="http://www.kidswithfoodallergies.org/contactus.html" >Sponsor a Program
+								<span class="small">Sponsor an educational, support or outreach program to help families in need.</span></a></li>
+								<li>
+                                	<a href="http://www.kidswithfoodallergies.org/shopping.html" target="_blank">Shop KFA
+                                    					<span class="small">Shop to support KFA and find food allergy books, cookbooks, t-shirts, and more.</span></a></li>
+            						<li class="last">
+                                    <a href="https://www.kidswithfoodallergies.org/donate.html" >Host a Fundraiser
+										<span class="small">Spread food allergy awareness in your community.</span></a></li>
+		</ul>-->
+	</li>
+    
+	<li id="resources"><a href="http://www.kidswithfoodallergies.org/resourcesnew.php" target="_blank">Resources</a>
+<!--	<ul class="resourcelist">
+ 
+        <li><a href="http://www.kidswithfoodallergies.org/guide_to_parenting_child_with_food_allergy.html" target="_blank">KFA's Starter Guide to Parenting <br />
+a Child with Food Allergies</a></li>
+  <li><a href="http://www.kidswithfoodallergies.org/marketplace.html" target="_blank">Allergy Buyer's Guide<br /> (Business Directory) 
+</a></li>
+            <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=freeguides" target="_blank">Free Printable Guides</a></li>
+                <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=basics" target="_blank">Basics</a></li>
+                    <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=diagnosis-testing" target="_blank">Diagnosis & Testing</a></li>
+                        <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=emotional_social" target="_blank">Emotional & Social Issues</a></li>
+                            <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=food-allergens" target="_blank">Food Allergens</a></li>
+                                <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=food-cooking" target="_blank">Food & Cooking</a></li>
+                                    <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=gastrointestinal-disorders" target="_blank">Gastrointestinal Disorders</a></li>
+                                        <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=holidays" target="_blank">Holidays</a></li>
+                                            <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=managing_allergies" target="_blank">Managing Food Allergies</a></li>
+                                            	        <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=pfood-safety-labeling" target="_blank">Product Safety & Labeling</a></li>
+                                                                <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=research" target="_blank">Research</a></li>
+                                                                  <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=rising-stars" target="_blank">Rising Stars</a></li>
+                                                                    <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=school-preschool" target="_blank">School & Preschool</a></li>
+                                                                          <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=shopping" target="_blank">Shopping Strategies</a></li>
+                                                                           <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=support_group" target="_blank">Support Groups</a></li>
+                                                                             <li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=travel" target="_blank">Travel & Vacations</a></li>
+                                                                                  <li><a href="http://community.kidswithfoodallergies.org/set/kfa-food-allergy-videos">Videos</a></li>
+                                          
+    
+    </ul>  -->
+    
+    </li>
+    
+    
+    
+    
+	<li id="news" style="width:auto"><a href="http://community.kidswithfoodallergies.org/blog">News</a>
+	<!--<ul class="newslist">
+			  <li>
+				<a href="http://www.kidswithfoodallergies.org/newsletter.html">
+					Free Newsletter <span class="small">Be informed of the latest food allergy news, research, recipes, products and more. </span></a></li>
+           		 
+                 
+                 		 <li>
+					<a href="http://community.kidswithfoodallergies.org/collection/food-allergy-recall-alerts">
+					Food Allergy Recall Alerts <span class="small">Stay updated about foods recalled in the U.S. and Canada.</span></a></li>
+          
+             			 <li>
+					<a href="http://www.kidswithfoodallergies.org/resourcesnew.php" target="_blank">
+						Publications <span class="small">Find information on many different food allergy topics.</span></a></li>
+          
+             			 <li>
+							<a href="http://community.kidswithfoodallergies.org/blog">
+								What's New at KFA
+								<span class="small">Learn what's new at KFA. </span>
+									</a></li>
+            				 <li><a href="http://community.kidswithfoodallergies.org/collection/kfa-leadership-and-announcements">KFA Leadership's Blog <span class="small">Read messages from KFA's Board of Directors and Leaders.</span></a></li>
+            					
+                              <li>
+									<a href="http://community.kidswithfoodallergies.org/collection/food-allergy-updates-from-medical-advisory-team">
+									Medical Advisory Team's Blog
+											<span class="small">Read messages from KFA's Medical Advisory Team.</span>
+											</a></li>
+		
+
+
+ <li>
+									<a href="http://community.kidswithfoodallergies.org/collection/food-nutrition-recipes">
+									Food, Recipes, Nutrition Blog
+											<span class="small">New food finds, allergy-friendly cooking and baking tips, and nutrition information.</span>
+											</a></li>
+
+
+
+
+
+							
+                                    <li class="last">
+										<a href="http://www.kidswithfoodallergies.org/presskit.html" target="_blank">
+											Press & Media Center
+												<span class="small">Find KFA press releases, media contacts, press kit and more.</span></a></li>
+		</ul>	-->					
+	</li>
+
+	
+    <li id="recipes"><a href="http://www.kidswithfoodallergies.org/recipes.html" target="_blank">Recipes</a>
+ <!-- <ul class="image1col">
+				<li class="imageInset" style="width:180px">
+				<a href="http://www.kidswithfoodallergies.org/recipes.html" target="_blank">
+					<img class="" src="http://www.kidswithfoodallergies.org/images/coconutcake.jpg" width="200" />	</a>
+					<br /><div style="padding:3px">
+						<span class="small">
+							Our recipe collection contains over 1,200 recipes that can be searched by allergen, category or keyword.
+						</span></div>
+	
+
+			</li>
+						<li><a href="http://kidswithfoodallergies.org/recipes/introduction.php" target="_blank">Safe Eats™ Recipe Collection<br />for Members-Only (Log-in)</a></li>
+                        <li><a href="http://www.kidswithfoodallergies.org/free_food_allergy_recipes.html" target="_blank">Free Recipes</a></li>
+
+			<li style="width:auto"><a href="http://community.kidswithfoodallergies.org/collection/food-nutrition-recipes">Food, Nutrition, and Recipes Blog</a></li>
+			<li><a href="http://www.kidswithfoodallergies.org/resourcetopic.php?topic=food-allergens" target="_blank">Ingredients to Avoid</a></li>
+			<li style="width:auto"><a href="http://www.kidswithfoodallergies.org/resourcespre.php?id=103&title=Basic_recipe_substitutions_for_milk_allergy" target="_blank">Recipe Substitutions for Milk Allergy</a></li>
+            <li style="width:auto"><a href="http://www.kidswithfoodallergies.org/resourcespre.php?id=90&title=Basic_recipe_substitutions_for_soy_allergy" target="_blank">Recipe Substitutions for Soy Allergy</a></li>
+            <li style="width:auto"><a href="http://www.kidswithfoodallergies.org/resourcespre.php?id=104&title=Basic_recipe_substitutions_for_egg_allergy" target="_blank">Recipe Substitutions for Egg Allergy</a></li>
+            <li style="width:auto"><a href="http://www.kidswithfoodallergies.org/resourcespre.php?id=89&title=Basic_recipe_substitutions_for_wheat_allergy" target="_blank">Recipe Substitutions for Wheat Allergy</a></li>
+            <li><a href="http://www.kidswithfoodallergies.org/resourcespre.php?id=65&title=Avoiding_cross-contamination_in_your_home" target="_blank">Avoiding Cross-Contamination</a></li>
+			<li class="last"><a href="http://community.kidswithfoodallergies.org/category/food-and-cooking-support">Food & Cooking Forums</a></li>
+            
+            
+
+		</ul>-->
+	</li>
+  <li id="donate"><a href="https://secure.kidswithfoodallergies.org/np/clients/kidswfa/donation.jsp?campaign=22">Donate</a></li>	
+</ul>
+
+
+  	<div align="right" style="margin-top:60px; margin-right:8px">
+    
+
+    <h1 style="vertical-align:top; font-size:16px; font-family:Cabin, Arial, sans serif; color:#6ea53f; line-height:1.1">Kids With Food Allergies Foundation is a division of the Asthma and Allergy Foundation of America</h1>
+    <div style="float:right;">
+    <img src="http://www.kidswithfoodallergies.org/images/followus-blue.png" alt="Follow KFA on Social Media" height="50" />
+    <a href="http://www.facebook.com/kidswithfoodallergies" target="_blank" onmouseover="changer('img1',2)" onmouseout="changer('img1',1)"><img src="http://www.kidswithfoodallergies.org/siteimages/social-media/facebook-blue.png" alt="Like Us on Facebook"   border="0" id="img1" /></a>
+    
+<a href="http://www.twitter.com/kfatweets" target="_blank"  onmouseover="changer('img3',4)" onmouseout="changer('img3',3)"><img src="http://www.kidswithfoodallergies.org/siteimages/social-media/twitter-blue.png" alt="Follow Us on Twitter"  border="0" id="img3" /></a>
+   <a href="http://www.youtube.com/KFAadmin" target="_blank" onmouseover="changer('img5',6)" onmouseout="changer('img5',5)"><img  src="http://www.kidswithfoodallergies.org/siteimages/social-media/youtube-blue.png" alt="Our YouTube Channel"  border="0" id="img5" /></a>
+  <a href="https://www.google.com/+KidswithfoodallergiesOrg" target="_blank" onmouseover="changer('img7',8)" onmouseout="changer('img7',7)"><img  src="http://www.kidswithfoodallergies.org/siteimages/social-media/google-blue.png" alt="KFA on Google+"  border="0" id="img7" /></a><a href="http://feeds.feedburner.com/kidswithfoodallergies" target="_blank" onmouseover="changer('img9',10)" onmouseout="changer('img9',9)"><img  src="http://www.kidswithfoodallergies.org/siteimages/social-media/rss-blue.png" alt="Subscribe to KFA's RSS Feed"  border="0" id="img9" /></a><a href="http://www.kidswithfoodallergies.org/newsletter_sign-up.html" target="_blank" onmouseover="changer('img11',16)" onmouseout="changer('img11',11)"><img  src="http://www.kidswithfoodallergies.org/siteimages/social-media/mail-blue.png" alt="Subscribe to KFA's Free Newsletter"  border="0" id="img11" /></a></div></div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</div><br clear="all" />
+
+<table width="100%" height="22" style="background-color:#effaff; width:99%; height:22px;" align="center"><tr><td align="center" width="220"><table><tr><td style="padding-right:10px"><form action="http://community.kidswithfoodallergies.org/collection/food-nutrition-recipes" method="GET" name="foodblog">  <input name="search" type="submit" value="Food Blog" style="color:#fff; background-color:#6ea53f; padding:3px; border:#F5F9F2 solid 1px; " /></form></td><td style="padding-left:10px">  <form action="http://community.kidswithfoodallergies.org/category/food-and-cooking-support" method="GET" name="discuss">  <input name="search" type="submit" value="Discuss" style="color:#fff; background-color:#6ea53f; padding:3px; border:#F5F9F2 solid 1px; " /></form></td></tr></table></td><td align="right">
+
+<form action="SearchHandling2014.php" method="POST" name="searchform">
+
+<input type="text" name="keyword" id="keyword" class="defaultfont" size="25" style="border:1px solid #147da3" value="enter keywords" onfocus="clearDefault(this)" />
+<select type="hidden" name="course" id="course">
+                           <option value="Any">Any</option>
+                           
+                           <option value="Appetizers">Appetizer</option>
+                       <option value="Baby Food">Baby Food</option>
+                       <option value="Beverages">Beverages</option>
+                       <option value="Breads">Breads</option>
+                       <option value="Breakfast">Breakfast</option>
+                       <option value="Cakes">Cakes</option>
+                       <option value="Candy">Candy</option>
+                       <option value="Casseroles">Casseroles</option>
+                       <option value="Condiments">Condiments</option>
+                       <option value="Cookies">Cookies</option>
+                       <option value="Crafts">Crafts</option>
+                       <option value="Desserts">Desserts</option>
+                       <option value="Flour Mixes">Flour Mixes</option>
+                       <option value="Frostings">Frostings</option>
+                       <option value="Frozen Desserts">Frozen Desserts</option>
+                       <option value="Jam">Jam</option>
+                       <option value="Main Dishes">Main Dishes</option>
+                       <option value="Miscellaneous">Miscellaneous</option>
+                       <option value="Muffins">Muffins</option>
+                       <option value="Pasta">Pasta</option>
+                       <option value="Pies">Pies</option>
+                       <option value="Sauces & Salsas">Sauces &amp; Salsas</option>
+                       <option value="Side Dishes">Side Dishes</option>
+                       <option value="Smoothies">Smoothies</option>
+                       <option value="Snacks">Snacks</option>
+                       <option value="Soups & Broths">Soups &amp; Broths</option>
+                       <option value="Soy, Seed & Nut Butters">Soy, Seed &amp; Nut Butters</option>
+                       <option value="Substitutes">Substitutes</option></select>
+                           
+                           
+                           <input type="hidden" id="milkfree" type="checkbox" name="milkfree" value="ON" />
+                           <input type="hidden"  id="peanutfree" type="checkbox" name="peanutfree" value="ON" />
+                           <input type="hidden"  id="eggfree" type="checkbox" name="eggfree" value="ON" />
+                           <input type="hidden"  id="soyfree" type="checkbox" name="soyfree" value="ON" />
+               <input type="hidden" id="nutfree" type="checkbox" name="nutfree" value="ON" />
+                <input type="hidden"  id="cornfree" type="checkbox" name="cornfree" value="ON" />
+                
+                <input type="hidden"  id="glutenfree" type="checkbox" name="glutenfree" value="ON" />
+                <input type="hidden"  id="wheatfree" type="checkbox" name="wheatfree" value="ON" />
+                <input  type="hidden" id="fishfree" type="checkbox" name="fishfree" value="ON" />
+                 <input type="hidden"  id="shellfishfree" type="checkbox" name="shellfishfree" value="ON" />
+                 <input  type="hidden" id="sesamefree" type="checkbox" name="sesamefree" value="ON" />
+                   <input type="hidden" id="empty" type="checkbox" name="other" value="ON" />
+                
+                
+               <input name="search" type="submit" value="Search Recipes" style="color:#333333;" />
+            
+</form></td></tr></table>
+
+
+<div style="width:100%; height:1px; background-color:#147da3; margin-top:6px"></div>
+</body>
+</html>

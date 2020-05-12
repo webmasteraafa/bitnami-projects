@@ -1,0 +1,366 @@
+.style1 {font-size:8pt;
+font-family:Verdana, Arial, Helvetica, sans-serif}
+.background{ background-color:#FFFFFF;}
+.defaultfont
+{
+   font-family: Verdana, Arial, Sans-Serif; 
+   font-size:12px;
+   color: #333333;
+}
+.defaultfontbold
+{
+   font-family: Verdana, Arial, Sans-Serif; 
+   font-size:12px; 
+   font-weight:bold;
+}
+.leftpanelbg
+{
+   background-color:#EDEDED;   
+}
+.celltitlebg
+{
+   background-color:#DCDCDC;
+   font-family: Verdana, Arial, Sans-Serif; 
+   font-size:11px; 
+   font-weight:bold;
+}
+.cellbg
+{
+   background-color:#ffffff;
+   font-family: Verdana, Arial, Sans-Serif; 
+   font-size:12px;
+}
+.allergenKey
+{
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size:12px;
+	color: #A42917;
+       font-weight:bold;
+}
+
+.introtext
+{
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 8px 8px 8px 8px;
+}
+
+
+
+.headercontainer
+{
+  margin: 5px;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.headerleft
+{
+   background-color:#6699CC;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: #FFFFFF;
+   font-size:14px;
+   padding: 2px 2px 2px 5px;
+}
+
+
+.headerright
+{
+   background-color:#6699CC;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: #FFFFFF;
+   font-size:14px;
+   padding: 2px 2px 2px 5px;
+}
+
+
+.title
+{
+   color:#333366;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:16px;
+   font-weight:bold;
+   padding: 2px 2px 2px 2px;
+
+}
+
+.normal
+{
+   color:#333366;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:12px;
+   font-weight: bold;
+   padding-left:12px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+.recipedetaillink
+{
+   color:#333366;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:12px;
+   font-weight: bold;
+}
+.resultspacing
+{
+   padding-left: 15px;
+   padding-right: 3px;
+}
+
+
+.searchresultbg
+{
+	background-color:#DCDCDC;
+}
+
+.searchresultbgodd
+{
+	background-color:#ffffff;
+}
+
+.searchresultbgeven
+{
+	background-color:#DCDCDC;
+}
+
+.leftpanelheader
+{
+   background-color:#6699CC;
+   color:#CBD0DF;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:14px;
+   font-weight:bold;
+   padding: 2px 2px 2px 5px;
+}
+
+.header
+{
+   background-color:#6699CC;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: #FFFFFF;
+   font-size:14px;
+   padding: 2px 2px 2px 5px;
+}
+
+.leftpanelfont
+{
+   background-color:#EDEDED;
+   color:#8B5865;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:11px;
+   padding: 2px 2px 2px 10px;
+   text-decoration: none;
+   color:#3F679B;
+}
+
+.leftpaneloption
+{
+   background-color:#EDEDED;
+   color:#333366;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:9px;
+   padding: 2px 2px 2px 20px;
+}
+
+.footerleft
+{
+   background-color:#6699CC;
+   color:#333366;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:10px;
+   font-weight:700;
+   padding: 2px 2px 2px 20px;
+   text-align: left;
+}
+
+
+.footerright
+{
+   background-color:#6699CC;
+   color:#FFFFFF;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:10px;
+   padding: 2px 2px 2px 20px;
+   text-align: right;
+}
+
+.leftword
+{  text-decoration: none;
+   color: #3F679B;
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size:10pt; 
+   font-weight:700;
+   line-height:2;
+}
+
+a.leftpanellink:link
+{
+   TEXT-DECORATION: underline;
+   color: #3F679B;
+}
+a.leftpanellink:visited
+{
+   TEXT-DECORATION: underline;
+   color: #8B5865;
+}
+a.leftpanellink:hover
+{
+   TEXT-DECORATION: underline;
+   color: #404040;
+}
+a.leftpanellinkselected:link
+{
+   TEXT-DECORATION: underline;
+   color: #3F679B;
+}
+a.leftpanellinkselected:visited
+{
+   TEXT-DECORATION: underline;
+   color: #8B5865;
+}
+a.leftpanellinkselected:hover
+{
+   TEXT-DECORATION: underline;
+   color: #404040;
+}
+.helppanel
+{
+   background-color:#ffffff;
+   font-family: Verdana, Sans-Serif; 
+   font-size:12px;
+   padding: 10px 10px 10px 10px;
+}
+
+.resultlink
+{
+   color:#000000;
+   background-color:#DCDCDC;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:12px;
+}
+
+.resultlinkeven
+{
+   color:#000000;
+   background-color:#DCDCDC;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:12px;
+}
+
+.resultlinkodd
+{
+   color:#000000;
+   background-color:#ffffff;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:12px;
+}
+
+a.resultlink:link
+{
+   TEXT-DECORATION: underline;
+   color: #3F679B;
+}
+a.resultlink:visited
+{
+   TEXT-DECORATION: underline;
+   color: #8B5865;
+}
+a.resultlink:hover
+{
+   TEXT-DECORATION: underline;
+   color: #404040;
+}
+
+a.resultlinkeven:link
+{
+   TEXT-DECORATION: underline;
+   color: #3F679B;
+}
+a.resultlinkeven:visited
+{
+   TEXT-DECORATION: underline;
+   color: #8B5865;
+}
+a.resultlinkeven:hover
+{
+   TEXT-DECORATION: underline;
+   color: #404040;
+}
+
+a.resultlinkodd:link
+{
+   TEXT-DECORATION: underline;
+   color: #3F679B;
+}
+a.resultlinkodd:visited
+{
+   TEXT-DECORATION: underline;
+   color: #8B5865;
+}
+a.resultlinkodd:hover
+{
+   TEXT-DECORATION: underline;
+   color: #404040;
+}
+
+.celltitlebgprint
+{
+   background-color:#FFFFFF;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:12px;
+   font-weight:bold;
+}
+.cellbgprint
+{
+   background-color:#FFFFFF;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:12px;
+}
+
+.titleprint
+{
+   color:#000000;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:16px;
+   font-weight:bold;
+   padding: 2px 2px 2px 2px;
+
+}
+
+.headerprint
+{
+   background-color:#000000;
+   color:#FFFFFF;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:14px;
+   font-weight:bold;
+   padding: 2px 2px 2px 2px;
+}
+
+.normalprint
+{
+   color:#333366;
+   font-family: Verdana, Arial, Sans-Serif;
+   font-size:12px;
+   font-weight: bold;
+   padding-left:12px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+.recipesgreyboxmain {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #E1E1E1;
+	background-color: white;
+	padding:10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.25em;
+	color: #666666;
+	margin-top:0px;
+	text-align:left;
+}

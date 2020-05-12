@@ -1,0 +1,305 @@
+<?php
+$isAdmin = $_SESSION['isAdmin'];
+$category = $_SESSION['category'];
+
+?>
+<table width="240" border="0"><tr><td valign="top">
+<div class="ltblueleftbox" style="width:240px; color:#fff; font-size:16px; font-family:Cabin">sponsored by</div>            
+<div style="border: 2px solid #D2D2D2; padding:5px;">
+
+
+<!-- START 180x150 AdPeeps.com Code 
+<div align="center">
+
+
+
+<a href="http://ads.pointroll.com/PortalServe/?pid=2197957M56420131217195216&pos=c&r=[RANDOM]" target="_blank">
+<img src="http://www.kidswithfoodallergies.org/adpeeps/uploaded_banners/100000_1122_149397.jpg" border="0" alt="" width="180" height="150" /><img border="0" width="1" height="1" src="http://ads.pointroll.com/PortalServe/?pid=2197957M56420131217195216&pos=i&r=[RANDOM]"></a></div>
+
+
+<!-- START 180x150 AdPeeps.com Code -->
+<div align="center">
+<script type="text/javascript" src="http://www.kidswithfoodallergies.org/adpeeps/adpeeps.php?bfunction=showad&amp;uid=100000&amp;bmode=off&amp;gpos=center&amp;bzone=recipes_sponsor&amp;bsize=180x150&amp;btype=3&amp;bpos=default&amp;ver=2.0&amp;btotal=10&amp;btarget=_blank&amp;bborder=0&amp;gspacing=1">
+</script>
+<noscript>
+<a href="http://www.kidswithfoodallergies.org/adpeeps/adpeeps.php?bfunction=go&amp;uid=100000&amp;bmode=off&amp;bzone=recipes_sponsor&amp;bsize=180x150&amp;btype=1&amp;bpos=default&amp;ver=2.0" target="_blank">
+<img src="http://www.kidswithfoodallergies.org/adpeeps/adpeeps.php?bfunction=showad&amp;uid=100000&amp;bmode=off&amp;bzone=recipes_sponsor&amp;bsize=180x150&amp;btype=1&amp;bpos=default&amp;ver=2.0" width="180" height="150" alt="Click Here!" title="Click Here!" border="0" /></a>
+</noscript>
+</div>
+<!-- END AdPeeps.com Code -->
+<br />
+
+<!-- START 180x150 AdPeeps.com Code -->
+<div align="center">
+<script type="text/javascript" src="http://www.kidswithfoodallergies.org/adpeeps/adpeeps.php?bfunction=showad&amp;uid=100000&amp;bmode=off&amp;gpos=center&amp;bzone=free_recipes_sponsor&amp;bsize=180x150&amp;btype=3&amp;bpos=default&amp;ver=2.0&amp;btotal=5&amp;btarget=_blank&amp;bborder=0&amp;gspacing=1">
+</script>
+<noscript>
+<a href="http://www.kidswithfoodallergies.org/adpeeps/adpeeps.php?bfunction=go&amp;uid=100000&amp;bmode=off&amp;bzone=free_recipes_sponsor&amp;bsize=180x150&amp;btype=1&amp;bpos=default&amp;ver=2.0" target="_blank">
+<img src="http://www.kidswithfoodallergies.org/adpeeps/adpeeps.php?bfunction=showad&amp;uid=100000&amp;bmode=off&amp;bzone=free_recipes_sponsor&amp;bsize=180x150&amp;btype=1&amp;bpos=default&amp;ver=2.0" width="180" height="150" alt="Click Here!" title="Click Here!" border="0" /></a>
+</noscript>
+</div>
+<!-- END AdPeeps.com Code -->
+
+</div> 
+<!-- END AdPeeps.com Code -->  
+
+
+<br />
+
+				   
+
+
+
+
+
+<div class="ltblueleftbox" style="width:240px; color:#fff; font-size:16px; font-family:Cabin">recipes</div>            
+<div style="border: 2px solid #D2D2D2; padding:15px;" align="left">
+
+
+                      
+                      <a class="style27" href="allergy-friendly-recipes.php" style="padding-bottom:10px">Recipes Home</a><br />
+                    <!--make live <a class="style27" href="featured-recipes.php" style="padding-bottom:10px">Featured Recipes</a><br />-->  
+                 <a class="style27" href="search.php"  style="padding-bottom:10px">Advanced Recipe Search</a> <br />
+ <!-- <a class="style27" href="newrecipes.php"  style="padding-bottom:10px">New Recipes</a><br />
+                       <a class="style27" href="addrecipe.php"  style="padding-bottom:10px">Share a Recipe</a><br />-->
+
+   <!--make live <a class="style27" href="holiday_recipes.php"  style="padding-bottom:10px">Holiday Recipes</a><br />-->   
+    <a class="style27" href="helpNav.php"  style="padding-bottom:10px">Technical Help</a><br />
+
+       <a class="style27" href="http://community.kidswithfoodallergies.org/forum/safe_eats_comments"  style="padding-bottom:10px">Ask a Question</a>
+                       <br />
+                       <br />
+<br />
+
+                            
+                             <span class="leftword">Browse</span>
+      <?php
+      if ($currentPage == 'type' & $category == 'Appetizers'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Appetizers\">> Appetizers</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Appetizers\">> Appetizers</a>";
+      }
+      ?>
+      <?php
+      if ($currentPage == 'type' & $category == 'Baby Food'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Baby+Food\">> Baby Food</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Baby+Food\">> Baby Food</a>";
+      }
+      ?>
+      <?php
+      if ($currentPage == 'type' & $category == 'Beverages'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Beverages\">> Beverages</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Beverages\">> Beverages</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Breads'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Breads\">> Breads</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Breads\">> Breads</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Breakfast'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Breakfast\">> Breakfast</a>";
+      }
+      else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Breakfast\">> Breakfast</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Cakes'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Cakes\">> Cakes</a>";
+      }
+      else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Cakes\">> Cakes</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Candy'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Candy\">> Candy</a>";
+      }
+      else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Candy\">> Candy</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Casseroles'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Casseroles\">> Casseroles</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Casseroles\">> Casseroles</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Condiments'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Condiments\">> Condiments</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Condiments\">> Condiments</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Cookies'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Cookies\">> Cookies</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Cookies\">> Cookies</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Crafts'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Crafts\">> Crafts</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Crafts\">> Crafts</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Desserts'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Desserts\">> Desserts</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Desserts\">> Desserts</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Flour Mixes'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Flour+Mixes\">> Flour Mixes</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Flour+Mixes\">> Flour Mixes</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Frostings'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Frostings\">> Frostings</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Frostings\">> Frostings</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Frozen Desserts'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Frozen+Desserts\">> Frozen Desserts</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Frozen+Desserts\">> Frozen Desserts</a>";
+      }?>
+
+ 
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Jam'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Jam\">> Jam</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Jam\">> Jam</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Main Dishes'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Main+Dishes\">> Main Dishes</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Main+Dishes\">> Main Dishes</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Miscellaneous'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Miscellaneous\">> Miscellaneous</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Miscellaneous\">> Miscellaneous</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Muffins'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Muffins\">> Muffins</a>";
+      }
+      else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Muffins\">> Muffins</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Pasta'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Pasta\">> Pasta</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Pasta\">> Pasta</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Pies'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Pies\">> Pies</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Pies\">> Pies</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Sauces & Salsas'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Sauces+%26+Salsas\">> Sauces &amp; Salsas</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Sauces+%26+Salsas\">> Sauces &amp; Salsas</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Side Dishes'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Side+Dishes\">> Side Dishes</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Side+Dishes\">> Side Dishes</a>";
+      }?>
+
+      <?php
+      if ($currentPage == 'type' & $category == 'Smoothies'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Smoothies\">> Smoothies</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Smoothies\">> Smoothies</a>";
+      }?>
+
+         <?php
+      if ($currentPage == 'type' & $category == 'Snacks'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Snacks\">> Snacks</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Snacks\">> Snacks</a>";
+      }?>
+
+         <?php
+      if ($currentPage == 'type' & $category == 'Soups & Broths'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Soups+%26+Broths\">> Soups &amp; Broths</a>";
+      } else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Soups+%26+Broths\">> Soups &amp; Broths</a>";
+      }?>
+
+   <?php
+      if ($currentPage == 'type' & $category == 'Soy, Seed & Nut Butters'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Soy,+Seed+%26+Nut+Butters\">> Soy, Seed &amp; Nut Butters</a>";
+      }
+      else{
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Soy,+Seed+%26+Nut+Butters\">> Soy, Seed &amp; Nut Butters</a>";
+      }?>
+
+   <?php
+      if ($currentPage == 'type' & $category == 'Substitutes'){
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Substitutes\">> Substitutes</a>";
+      }
+      else {
+        echo "<br><a class=\"style27\" href=\"browsecategory.php?category=Substitutes\">> Substitutes</a>";
+      }?>
+
+
+     
+
+   <?php
+   if ($isAdmin){
+
+     echo "<p><a class=\"style27\" href=\"admin.php\">Administrator</a></p>";
+   }
+   if ($isAdmin){
+     echo "<p><a class=\"style27\" href=\"approved.php\">Un-Approve Recipes</a></p>";
+	
+   }
+   ?></div>
+ <br />
+                 
+<br />
+
+<div style="width:220px; height: auto; background-color:#6ea53f; padding:10px; text-align:center; margin: auto 0" align="center"><a href="http://community.kidswithfoodallergies.org/forum/safe_eats_comments" style="color:#fff; font-size:22px; font-family:Cabin;" target="_blank">questions or comments?</a><br />
+<br /><span style="font-size:14px; color:#fff; font-family:Cabin">Visit our community forums for food &amp; cooking support and post your questions, comments or tips. Registration is free!</span>
+</div>
+								</td>
+				      </tr>
+		            </table>
+					
+			
+
